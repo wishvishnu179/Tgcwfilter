@@ -1779,8 +1779,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 ɢʀᴏᴜᴘ¹', url='https://t.me/Requestmoviestgcw'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ² 🔎', url='https://t.me/Moviesrequestfiles')
         ],[
-            InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/Requestmoviestgcw')
-        ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/TGCWadminbot')
         ]]
@@ -1845,8 +1843,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
-        ], [
-            InlineKeyboardButton ('• ᴄʀᴇᴅɪᴛꜱ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ •', callback_data='credits'),
         ], [
             InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(6769956957)),
             InlineKeyboardButton('• ꜱᴛᴀᴛꜱ •', callback_data='stats')
