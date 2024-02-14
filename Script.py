@@ -421,7 +421,7 @@ BOT WORKING PROPERLY"""
     
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-01-03'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
@@ -436,7 +436,7 @@ BOT WORKING PROPERLY"""
 ● <code>300₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
 
 💵 ᴜᴘɪ ɪᴅ - <code>wishvishnu179-1@okaxis</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-01-03'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
