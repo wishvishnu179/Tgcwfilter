@@ -1479,10 +1479,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = []
             if await db.has_premium_access(user_id):                               
                 buttons = [[
-                    InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
-                    InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿", url=lazy_stream)
+                    InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
+                    InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿", url=lazy_stream)
                 ],[
-                    InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url='https://t.me/Tgcinemaworld')
+                    InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url='https://t.me/Tgcinemaworld')
                 ]]
             else:
                 await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
@@ -1492,10 +1492,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 disable_web_page_preview=True,                  
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ 💸", callback_data='seeplans')]]))
                 buttons = [[
-                    InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=hp_link),
-                    InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿", url=ph_link)
+                    InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=hp_link),
+                    InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿", url=ph_link)
                 ],[
-                    InlineKeyboardButton('❗ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ❗', url=STREAMHTO)
+                    InlineKeyboardButton('❗Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ❗', url=STREAMHTO)
                 ]]
     
             query.message.reply_markup = query.message.reply_markup or []
@@ -1506,8 +1506,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     text=f"#LinkGenrated\n\nIᴅ : <code>{user_id}</code>\nUꜱᴇʀɴᴀᴍᴇ : {username}\n\nNᴀᴍᴇ : {fileName}",
                     quote=True,
                     disable_web_page_preview=True,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=hp_link),
-                                                        InlineKeyboardButton('ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', url=ph_link)]]))  
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=hp_link),
+                                                        InlineKeyboardButton('Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', url=ph_link)]]))  
         except Exception as e:
             print(e)  # print the error message
             await query.answer(f"⚠️ SOMETHING WENT WRONG \n\n{e}", show_alert=True)
@@ -1529,15 +1529,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('✧𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉✧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇꜱ •', callback_data='channels')
+                    InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖦𝗋𝗈𝗎𝗉 1 🔍', url='https://t.me/Requestmoviestgcw'),
+                    InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖦𝗋𝗈𝗎𝗉 2 🔍', url='https://t.me/Moviesrequestfiles')
                 ],[
-                    InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='help'),
-                    InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
+                    InlineKeyboardButton('🎬 𝖬𝗈𝗏𝗂𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 🎬', url='https://t.me/TGMWfiles'),
+                    InlineKeyboardButton(' 𝖠𝖻𝗈𝗎𝗍 ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
+                    InlineKeyboardButton('💥 𝖡𝗎𝗒  𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 𝖳𝗈 𝖱𝖾𝗆𝗈𝗏𝖾 𝖠𝖣𝖲 💥', callback_data="premium_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1560,11 +1560,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "purchase":
         buttons = [[
-            InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upi_info')
+            InlineKeyboardButton('💵 Pᴀʏ Vɪᴀ Uᴘɪ Iᴅ 💵', callback_data='upi_info')
         ],[
-            InlineKeyboardButton('📸 ꜱᴄᴀɴ ǫʀ ᴄᴏᴅᴇ 📸', callback_data='qr_info')
+            InlineKeyboardButton('📸 Sᴄᴀɴ QR Cᴏᴅᴇ 📸', callback_data='qr_info')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1575,9 +1575,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "upi_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(6769956957))
+            InlineKeyboardButton('📲 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ Hᴇʀᴇ', user_id=int(6769956957))
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1588,9 +1588,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "qr_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(6769956957))
+            InlineKeyboardButton('📲 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ Hᴇʀᴇ', user_id=int(6769956957))
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1601,9 +1601,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "seeplans":
         btn = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(6769956957))
+            InlineKeyboardButton('📲 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(6769956957))
         ],[
-            InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.reply_photo(
@@ -1774,13 +1774,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/tgcinemaworld')
+            InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⚜️', url='https://t.me/tgcinemaworld')
         ],[
-            InlineKeyboardButton('🔍 ɢʀᴏᴜᴘ¹', url='https://t.me/Requestmoviestgcw'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ² 🔎', url='https://t.me/Moviesrequestfiles')
+            InlineKeyboardButton('🔍 Gʀᴏᴜᴘ¹', url='https://t.me/Requestmoviestgcw'),
+            InlineKeyboardButton('Gʀᴏᴜᴘ² 🔎', url='https://t.me/Moviesrequestfiles')
         ],[
-            InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/TGCWadminbot')
+            InlineKeyboardButton('⇇ Bᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/TGCWadminbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1791,7 +1791,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "users":
         buttons = [[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='help')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1802,7 +1802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "group":
         buttons = [[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='help')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1815,7 +1815,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id not in ADMINS:
             return await query.answer("⚠️ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ʙᴏᴛ ᴀᴅᴍɪɴ !", show_alert=True)        
         buttons = [[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='help')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1827,12 +1827,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('• ʙᴏᴛ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='admic')
+            InlineKeyboardButton('• Bᴏᴛ Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅꜱ •', callback_data='admic')
         ], [
-            InlineKeyboardButton('• ᴜꜱᴇʀ •', callback_data='users'),
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', callback_data='group')
+            InlineKeyboardButton('• Uꜱᴇʀ •', callback_data='users'),
+            InlineKeyboardButton('• Gʀᴏᴜᴘ •', callback_data='group')
         ], [
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1842,14 +1842,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
+            InlineKeyboardButton('‼️ Dɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
         ], [
-            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(6769956957)),
-            InlineKeyboardButton('• ꜱᴛᴀᴛꜱ •', callback_data='stats')
+            InlineKeyboardButton('• Oᴡɴᴇʀ •', user_id=int(6769956957)),
+            InlineKeyboardButton('• Sᴛᴀᴛꜱ •', callback_data='stats')
         ], [
-            InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
+            InlineKeyboardButton('🛰️ Rᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
         ], [
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
