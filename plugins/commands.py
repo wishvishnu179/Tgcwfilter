@@ -43,15 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('✧𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉✧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('✧Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ✧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖦𝗋𝗈𝗎𝗉 1 🔍', url='https://t.me/Requestmoviestgcw'),
-                    InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖦𝗋𝗈𝗎𝗉 2 🔍', url='https://t.me/Moviesrequestfiles')
+                    InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1 🔍', url='https://t.me/Requestmoviestgcw'),
+                    InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🔍', url='https://t.me/Moviesrequestfiles')
                 ],[
-                    InlineKeyboardButton('🎬 𝖬𝗈𝗏𝗂𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 🎬', url='https://t.me/TGMWfiles'),
-                    InlineKeyboardButton(' 𝖠𝖻𝗈𝗎𝗍 ', callback_data='about')
+                    InlineKeyboardButton('🎬 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ 🎬', url='https://t.me/TGMWfiles'),
+                    InlineKeyboardButton(' Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💥 𝖡𝗎𝗒  𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 𝖳𝗈 𝖱𝖾𝗆𝗈𝗏𝖾 𝖠𝖣𝖲 💥', callback_data="premium_info")
+                    InlineKeyboardButton('💥 Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs 💥', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -157,7 +157,7 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["premium"]:
         buttons = [[
-                    InlineKeyboardButton('📲 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(6679258744))
+                    InlineKeyboardButton('📲 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(6769956957))
                   ],[
                     InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                   ]]
