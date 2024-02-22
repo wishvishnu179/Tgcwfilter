@@ -49,7 +49,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/Moviesrequestfiles')
                 ],[
                     InlineKeyboardButton('📽 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/TGMWfiles'),
-                    InlineKeyboardButton(' Aʙᴏᴜᴛ ', callback_data='about')
+                    InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
                   ]]
@@ -119,7 +119,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/Moviesrequestfiles')
                 ],[
                     InlineKeyboardButton('📽 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/TGMWfiles'),
-                    InlineKeyboardButton(' Aʙᴏᴜᴛ ', callback_data='about')
+                    InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
                   ]]
