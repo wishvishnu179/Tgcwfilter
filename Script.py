@@ -1,10 +1,10 @@
 class script(object):
-    START_TXT = """Hᴇʟʟᴏ {},\n   
+    START_TXT = """<b>Hᴇʟʟᴏ {},\n   
 Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
-Bᴜᴛ Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>"""
-    GSTART_TXT = """ Hᴇʟʟᴏ {},\n   
+Bᴜᴛ Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a></b>"""
+    GSTART_TXT = """<b>Hᴇʟʟᴏ {},\n   
 Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
-Bᴜᴛ Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>"""
+Bᴜᴛ Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a></b>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
     
