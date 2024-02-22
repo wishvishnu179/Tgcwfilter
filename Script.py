@@ -1,11 +1,10 @@
 class script(object):
-    START_TXT = """ 𝖧𝖾𝗅𝗅𝗈 {},\n   
-𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href=https://t.me/{}>{}</a>, 𝖨 𝖠𝗆 𝖳𝖦𝖢𝗂𝗇𝖾𝗆𝖺𝗐𝗈𝗋𝗅𝖽'𝗌 𝖬𝗈𝗏𝗂𝖾𝗌 𝖡𝗈𝗍. 𝖨 𝖢𝖺𝗇 𝖲𝗁𝖺𝗋𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖠𝗇𝖽 𝖲𝖾𝗋𝗂𝖾𝗌 😁 \n
-𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 ♥️🔥\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>"""
-
-    GSTART_TXT = """ 𝖧𝖾𝗅𝗅𝗈 {},\n   
-𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href=https://t.me/{}>{}</a>, 𝖨 𝖠𝗆 𝖳𝖦𝖢𝗂𝗇𝖾𝗆𝖺𝗐𝗈𝗋𝗅𝖽'𝗌 𝖬𝗈𝗏𝗂𝖾𝗌 𝖡𝗈𝗍. 𝖨 𝖢𝖺𝗇 𝖲𝗁𝖺𝗋𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖠𝗇𝖽 𝖲𝖾𝗋𝗂𝖾𝗌 😁 \n
-𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 ♥️🔥\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>"""
+    START_TXT = """Hᴇʟʟᴏ {},\n   
+Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
+Bᴜᴛ Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>"""
+    GSTART_TXT = """ Hᴇʟʟᴏ {},\n   
+Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
+Bᴜᴛ Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️\n\nMᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
     
