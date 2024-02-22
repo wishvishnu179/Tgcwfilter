@@ -48,7 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/Requestmoviestgcw'),
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/Moviesrequestfiles')
                 ],[
-                    InlineKeyboardButton('📽 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/TGMWfiles'),
+                    InlineKeyboardButton('🥀 Uᴘᴅᴀᴛᴇs ', callback_data='channels'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
@@ -118,7 +118,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/Requestmoviestgcw'),
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/Moviesrequestfiles')
                 ],[
-                    InlineKeyboardButton('📽 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/TGMWfiles'),
+                    InlineKeyboardButton('🥀 Uᴘᴅᴀᴛᴇs ', callback_data='channels'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
