@@ -43,15 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('✧Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ✧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1 🔍', url='https://t.me/Requestmoviestgcw'),
-                    InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🔍', url='https://t.me/Moviesrequestfiles')
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/Requestmoviestgcw'),
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/Moviesrequestfiles')
                 ],[
-                    InlineKeyboardButton('🎬 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ 🎬', url='https://t.me/TGMWfiles'),
+                    InlineKeyboardButton('📽 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/TGMWfiles'),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💥 Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs 💥', callback_data="premium_info")
+                    InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -113,15 +113,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('✧Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ✧', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1 🔍', url='https://t.me/Requestmoviestgcw'),
-                    InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🔍', url='https://t.me/Moviesrequestfiles')
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/Requestmoviestgcw'),
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/Moviesrequestfiles')
                 ],[
-                    InlineKeyboardButton('🎬 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ 🎬', url='https://t.me/TGMWfiles'),
+                    InlineKeyboardButton('📽 Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/TGMWfiles'),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💥 Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs 💥', callback_data="premium_info")
+                    InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
