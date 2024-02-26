@@ -1449,7 +1449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/+Rue6ak0CuNhhNjE9')
                 ],[
-                    InlineKeyboardButton('🥀 Uᴘᴅᴀᴛᴇs ', callback_data='channels'),
+                    InlineKeyboardButton('🥀 Fᴇᴀᴛᴜʀᴇs ', callback_data='channels'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
@@ -1769,10 +1769,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⚜️', url='https://t.me/tgcinemaworld')
+            InlineKeyboardButton('⚜️ Tᴇʟᴇɢʀᴀᴘʜ ⚜️',callback_data='telegraph.py')
         ],[
-            InlineKeyboardButton('🔍 Gʀᴏᴜᴘ¹', url='https://t.me/Requestmoviestgcw'),
-            InlineKeyboardButton('Gʀᴏᴜᴘ² 🔎', url='https://t.me/Moviesrequestfiles')
+            InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ ID', callback_data='stickerid.py'),
+            InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ Fʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ', callback_data='yt_dl.py')
         ],[
             InlineKeyboardButton('⇇ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/TGCWadminbot')
