@@ -1769,7 +1769,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ Tᴇʟᴇɢʀᴀᴘʜ ⚜️',callback_data='telegraph.py')
+            InlineKeyboardButton('⚜️ Tᴇʟᴇɢʀᴀᴘʜ ⚜️',callback_data='tele')
         ],[
             InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ ID', callback_data='stickerid.py'),
             InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ Fʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ', callback_data='yt_dl.py')
