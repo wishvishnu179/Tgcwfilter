@@ -1816,6 +1816,49 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
+    elif query.data == "ytdl":
+        buttons = [[
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+                text=script.YTDL_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+        )
+        
+    elif query.data == "song":
+            btn = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.SONG_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+        
+    elif query.data == "sticker":
+            btn = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
+                    ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.STICKER_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+        
     elif query.data == "tele":
             buttons = [[
             InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
