@@ -15,13 +15,21 @@ pyrogram>=2.0.30
 #---master---# 
  #Telethroid==0.0.10 
  PyLeaves==1.0.2 
-  
+
+#---ytdl----# 
+ ffmpeg
+youtube_search
+youtube-search-python==1.4.6
+yt-dlp
+youtube-dl
+requests
   
  #---others----# 
  opencv-python-headless==4.7.0.68 
  python-dotenv==0.21.1 
  speedtest==0.0.1 
  telegraph==2.2.0
+ gTTS==2.3.1
  humanize==4.6.0 
  Pillow==9.4.0 
  psutil==5.9.4 
