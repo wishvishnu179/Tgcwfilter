@@ -1847,6 +1847,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
+
+    elif query.data == "genpass":
+            buttons = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.GENPASS_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
         
     elif query.data == "sticker":
             buttons = [[
@@ -1904,7 +1915,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton(' Yᴏᴜᴛᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅ ', callback_data='ytdl')
         ],[
-            InlineKeyboardButton(' ᴛᴛs ', callback_data='tts'),
+            InlineKeyboardButton(' Gᴇɴ Pᴀssᴡᴏʀᴅ ', callback_data='genpass'),
+            InlineKeyboardButton(' ᴛᴛs ', callback_data='tts')
+        ],[  
             InlineKeyboardButton('⇋ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
