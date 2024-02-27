@@ -1447,9 +1447,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('🍻ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='help')
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/+Mz5o_wvRxho3NTVl')
                 ],[
-                    InlineKeyboardButton('🥀 Uᴘᴅᴀᴛᴇs ', callback_data='channels'),
+                    InlineKeyboardButton('🥀 Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
@@ -1897,14 +1897,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('• TELEGRAPH •', callback_data='tele')
+            InlineKeyboardButton(' Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele')
         ], [
-            InlineKeyboardButton('• Song •', callback_data='song'),
-            InlineKeyboardButton('• StickerID •', callback_data='sticker')
+            InlineKeyboardButton(' Sᴏɴɢ ', callback_data='song'),
+            InlineKeyboardButton('• Sᴛɪᴄᴋᴇʀɪᴅ •', callback_data='sticker')
         ], [
-            InlineKeyboardButton('• YoutubeDL •', callback_data='ytdl'),
-            InlineKeyboardButton('• TTS •', callback_data='tts')
+            InlineKeyboardButton(' Yᴏᴜᴛᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅ ', callback_data='ytdl')
         ],[
+            InlineKeyboardButton(' ᴛᴛs ', callback_data='tts'),
             InlineKeyboardButton('⇋ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
