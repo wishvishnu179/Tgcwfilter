@@ -1817,15 +1817,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
     elif query.data == "tele":
-            btn = [[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="http://t.me/vishnudhfm14")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
+            buttons = [[
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
+           ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=script.TELE_TXT.format(query.from_user.mention),
