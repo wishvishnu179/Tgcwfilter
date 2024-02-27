@@ -649,6 +649,28 @@ async def get_seconds(time_string):
     else:
         return 0
 
+def extract_time(time_val):
+    if any(time_val.endswith(unit) for unit in ("s", "m", "h", "d")):
+        unit = time_val[-1]
+        time_num = time_val[:-1]  # type: str
+        if not time_num.isdigit():
+            return None
+
+        if unit == "s":
+            bantime = datetime.now() + timedelta(seconds=int(time_num)) 
+        elif unit == "m":
+            bantime = datetime.now() + timedelta(minutes=int(time_num))
+        elif unit == "h":
+            bantime = datetime.now() + timedelta(hours=int(time_num))
+        elif unit == "d":
+            bantime = datetime.now() + timedelta(days=int(time_num))
+        else:
+            # how even...?
+            return None
+        return bantime
+    else:
+        return None
+        
 async def check_verification(bot, userid):
     user = await bot.get_users(userid)
     if not await db.is_user_exist(user.id):
