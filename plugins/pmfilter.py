@@ -1892,6 +1892,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 parse_mode=enums.ParseMode.HTML
             )
         
+    elif query.data == "font":
+            buttons = [[
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
+           ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.FONT_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+        
     elif query.data == "admic":
         if query.from_user.id not in ADMINS:
             return await query.answer("⚠️ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ʙᴏᴛ ᴀᴅᴍɪɴ !", show_alert=True)        
@@ -1908,17 +1919,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton(' Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele')
+            InlineKeyboardButton(' 🖼️ Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele')
         ], [
-            InlineKeyboardButton(' Sᴏɴɢ ', callback_data='song'),
-            InlineKeyboardButton('• Sᴛɪᴄᴋᴇʀɪᴅ •', callback_data='sticker')
+            InlineKeyboardButton(' 🎶 Sᴏɴɢ ', callback_data='song'),
+            InlineKeyboardButton(' 🎭 Sᴛɪᴄᴋᴇʀɪᴅ ', callback_data='sticker')
         ], [
-            InlineKeyboardButton(' Yᴏᴜᴛᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅ ', callback_data='ytdl')
+            InlineKeyboardButton(' ▶️ Yᴏᴜᴛᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅ ', callback_data='ytdl')
         ],[
-            InlineKeyboardButton(' Gᴇɴ Pᴀssᴡᴏʀᴅ ', callback_data='genpass'),
-            InlineKeyboardButton(' ᴛᴛs ', callback_data='tts')
+            InlineKeyboardButton(' 🔐 Gᴇɴ Pᴀssᴡᴏʀᴅ ', callback_data='genpass'),
+            InlineKeyboardButton(' 🔊 ᴛᴛs ', callback_data='tts')
         ],[  
-            InlineKeyboardButton('⇋ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton(' 📑 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ ', callback_data='font'),
+            InlineKeyboardButton(' 🌏 Cᴏᴜɴᴛʀʏ Iɴғᴏ ', callback_data='tts')
+        ],[
+            InlineKeyboardButton(' ➡ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
