@@ -17,9 +17,12 @@ pyrogram>=2.0.30
  PyLeaves==1.0.2 
 
 #---ytdl----#
- youtube-search-python
- youtube-search
- yt-dlp==2023.2.17
+ ffmpeg
+youtube_search
+youtube-search-python==1.4.6
+yt-dlp
+youtube-dl
+requests
   
  #---others----# 
  opencv-python-headless==4.7.0.68 
