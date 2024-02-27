@@ -1838,7 +1838,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         
     elif query.data == "song":
-            btn = [[
+            buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
                   ]]
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -1849,12 +1849,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         
     elif query.data == "sticker":
-            btn = [[
+            buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=script.STICKER_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+
+    elif query.data == "tts":
+            buttons = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
+                    ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.TTS_TXT.format(query.from_user.mention),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
@@ -1889,10 +1900,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• TELEGRAPH •', callback_data='tele')
         ], [
             InlineKeyboardButton('• Song •', callback_data='song'),
-            InlineKeyboardButton('• StickerID •', callback_data='sticket')
+            InlineKeyboardButton('• StickerID •', callback_data='sticker')
         ], [
             InlineKeyboardButton('• YoutubeDL •', callback_data='ytdl'),
-            InlineKeyboardButton('• StickerID •', callback_data='sticket')
+            InlineKeyboardButton('• TTS •', callback_data='tts')
         ],[
             InlineKeyboardButton('⇋ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⇋', callback_data='start')
         ]]
