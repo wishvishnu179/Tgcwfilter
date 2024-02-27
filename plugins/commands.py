@@ -46,9 +46,9 @@ async def start(client, message):
                     InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('🍻ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='help')
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/+Mz5o_wvRxho3NTVl')
                 ],[
-                    InlineKeyboardButton('🥀 Uᴘᴅᴀᴛᴇs ', callback_data='channels'),
+                    InlineKeyboardButton('🥀 Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
@@ -107,9 +107,9 @@ async def start(client, message):
                     InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('🍻ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='help')
+                    InlineKeyboardButton('🍻Mᴏᴠɪᴇs Gʀᴏᴜᴘ 2', url='https://t.me/+Mz5o_wvRxho3NTVl')
                 ],[
-                    InlineKeyboardButton('🥀 Uᴘᴅᴀᴛᴇs ', callback_data='channels'),
+                    InlineKeyboardButton('🥀 Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ ', callback_data='about')
                 ],[
                     InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
