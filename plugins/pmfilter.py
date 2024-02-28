@@ -1930,7 +1930,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' 🔊 ᴛᴛs ', callback_data='tts')
         ],[  
             InlineKeyboardButton(' 📑 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ ', callback_data='font'),
-            InlineKeyboardButton(' 🌏 Cᴏᴜɴᴛʀʏ Iɴғᴏ ', callback_data='tts')
+            InlineKeyboardButton(' 🌏 Cᴏᴜɴᴛʀʏ Iɴғᴏ ', callback_data='coun')
         ],[
             InlineKeyboardButton(' ➡ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ', callback_data='start')
         ]]
