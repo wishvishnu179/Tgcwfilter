@@ -1862,7 +1862,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-
+        
+    elif query.data == "country":
+            buttons = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
+                    ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.STICKER_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+        
     elif query.data == "tts":
             buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
@@ -1912,7 +1923,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' 🔊 ᴛᴛs ', callback_data='tts')
         ],[  
             InlineKeyboardButton(' 📑 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ ', callback_data='font'),
-            InlineKeyboardButton(' 🌏 Cᴏᴜɴᴛʀʏ Iɴғᴏ ', callback_data='coun')
+            InlineKeyboardButton(' 🌏 Cᴏᴜɴᴛʀʏ Iɴғᴏ ', callback_data='country_)
         ],[
             InlineKeyboardButton(' ➡ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ', callback_data='start')
         ]]
@@ -1922,6 +1933,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ Dɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
@@ -1949,6 +1961,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        
     elif query.data == "rendr":
         await query.answer("⚡️ ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️\n\n❂ ʀᴀᴍ ●●●●●●●◌◌◌\n✇ ᴄᴘᴜ ●●●●●●●◌◌◌\n✪ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌ 🛰\n\nᴠ4.2 [sᴛᴀʙʟᴇ] """, show_alert=True)
 
@@ -1962,7 +1975,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='about'),
