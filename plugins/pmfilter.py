@@ -1805,6 +1805,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
+    elif query.data == "font":
+        buttons = [[
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FONT_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
     elif query.data == "group":
         buttons = [[
             InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
@@ -1814,8 +1825,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.GROUP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
-
+         )
+        
     elif query.data == "ytdl":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
@@ -1888,17 +1899,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=script.TELE_TXT.format(query.from_user.mention),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-        
-    elif query.data == "font":
-            buttons = [[
-            InlineKeyboardButton('⇋ Bᴀᴄᴋ ⇋', callback_data='help')
-           ]]
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await query.message.edit_text(
-                text=script.FONT_TXT.format(query.from_user.mention),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
