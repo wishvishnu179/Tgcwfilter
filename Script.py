@@ -171,6 +171,13 @@ Bʏ @TGCinemaworldbot"""
  ◉ Reply To Any Sticker [/stickerid]  
  </b>"""
 
+    COUNTRY_TXT = """<b>ᴄᴏᴜɴᴛʀʏ ɪɴғᴏ
+
+Tʜɪs ᴍᴏᴅᴜʟᴇ ɪs ᴛᴏ ғɪɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄᴏᴜɴᴛʀɪᴇs
+
+• /country [𝖼𝗈𝗎𝗇𝗍𝗋𝗒 𝗇𝖺𝗆𝖾] 
+𝖤𝗑𝖺𝗆𝗉𝗅𝖾 :- /country India</b>"""
+    
     GROUP_TXT = """👋 ʜᴇʏ {},
 
 📚 ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ꜰᴏʀ ᴀʟʟ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ⇊
