@@ -1826,28 +1826,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
          )
-        
+
     elif query.data == "ytdl":
-        buttons = [[
-            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="● ◌ ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ●"
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-                text=script.YTDL_TXT.format(query.from_user.mention),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-        )
-        
+        await query.answer("Cᴜʀʀᴇɴᴛʟʏ Tʜɪs Fᴇᴀᴛᴜʀᴇ Is Dɪsᴀʙʟᴇᴅ!", show_alert=True)
+           
     elif query.data == "song":
             buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help")
