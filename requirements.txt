@@ -27,6 +27,7 @@ requests
  #---others----# 
  opencv-python-headless==4.7.0.68 
  googletrans==3.1.0a0
+ country
  python-dotenv==0.21.1 
  speedtest==0.0.1 
  telegraph==2.2.0
