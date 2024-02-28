@@ -17,7 +17,7 @@ pyrogram>=2.0.30
  PyLeaves==1.0.2 
 
 #---ytdl----#
- ffmpeg
+ffmpeg
 youtube_search
 youtube-search-python==1.4.6
 yt-dlp
