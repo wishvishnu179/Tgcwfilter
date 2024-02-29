@@ -1937,12 +1937,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('‼️ Dɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
         ], [
-            InlineKeyboardButton('• Oᴡɴᴇʀ •', user_id=int(6769956957)),
-            InlineKeyboardButton('• Sᴛᴀᴛꜱ •', callback_data='stats')
+            InlineKeyboardButton(' Oᴡɴᴇʀ ', user_id=int(6769956957)),
+            InlineKeyboardButton(' Sᴛᴀᴛꜱ ', callback_data='stats')
         ], [
             InlineKeyboardButton('🛰️ Rᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
         ], [
-            InlineKeyboardButton('⇋ Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('⇋ Bᴀᴄᴋ To Hᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
