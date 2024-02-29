@@ -464,54 +464,54 @@ BOT WORKING PROPERLY"""
 ➛ Use /plan Tᴏ Sᴇᴇ Aʟʟ Oᴜʀ Pʟᴀɴꜱ Aᴛ Oɴᴄᴇ.
 ➛ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Usɪɴɢ : /myplan</b>"""
 
-    OTHER_TXT = """<b>👋 ʜᴇʏ {},
+    OTHER_TXT = """<b>👋 Hᴇʏ {},
     
-🎁 <u>ᴏᴛʜᴇʀ ᴘʟᴀɴ</u>
-⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
-💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
+🎁 <u>Oᴛʜᴇʀ Pʟᴀɴ</u>
+⏰ Cᴜꜱᴛᴏᴍɪꜱᴇᴅ Dᴀʏꜱ
+💸 Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Dᴀʏꜱ Yᴏᴜ Cʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/vishnudhfm14'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 Iғ Yᴏᴜ Wᴀɴᴛ A Nᴇᴡ Pʟᴀɴ Aᴘᴀʀᴛ Fʀᴏᴍ Tʜᴇ Gɪᴠᴇɴ Pʟᴀɴ, Tʜᴇɴ Yᴏᴜ Cᴀɴ Tᴀʟᴋ Tᴏ Oᴜʀ <a href='https://t.me/vishnudhfm14'>Oᴡɴᴇʀ</a> Dɪʀᴇᴄᴛʟʏ Bʏ Cʟɪᴄᴋɪɴɢ Oɴ Tʜᴇ Cᴏɴᴛᴀᴄᴛ Bᴜᴛᴛᴏɴ Gɪᴠᴇɴ Bᴇʟᴏᴡ.
     
-👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
+👨‍💻 Cᴏɴᴛᴀᴄᴛ Tʜᴇ Oᴡɴᴇʀ Tᴏ Gᴇᴛ Yᴏᴜʀ Oᴛʜᴇʀ Plʟᴀɴ.
 
-➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
-➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
+➛ Use /plan Tᴏ Sᴇᴇ Aʟʟ Oᴜʀ Pʟᴀɴꜱ Aᴛ Oɴᴄᴇ.
+➛ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Usɪɴɢ : /myplan</b>"""
 
-    UPI_TXT = """<b>👋 ʜᴇʏ {},
+    UPI_TXT = """<b>👋 Hᴇʏ {},
     
-⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
+⚜️ Pᴀʏ Aᴍᴏᴜɴᴛ Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Yᴏᴜʀ Pʟᴀɴ Aɴᴅ Eɴᴊᴏʏ Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀꜱʜɪᴘ !
 
-💵 ᴜᴘɪ ɪᴅ - <code>wishvishnu179-1@okaxis</code>
+💵 Uᴘɪ ID - <code>wishvishnu179-1@okaxis</code>
 
-‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
+‼️ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ.</b>"""
 
-    QR_TXT = """<b>👋 ʜᴇʏ {},
+    QR_TXT = """<b>👋 Hᴇʏ {},
     
-⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
+⚜️ Pᴀʏ Aᴍᴏᴜɴᴛ Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Yᴏᴜʀ Pʟᴀɴ Aɴᴅ Eɴᴊᴏʏ Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
-‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
+‼️ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ.</b>"""
 
-    PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
+    PREPLANS_TXT = """<b>👋 Hᴇʏ {},
     
-🎖️ <u>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</u> :
+🎖️ <u>ᴀAᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs</u> :
 
-● <code>30₹</code> ➛ <u>ʙʀᴏɴᴢᴇ ᴘʟᴀɴ</u> » <code>30 ᴅᴀʏꜱ</code>
-● <code>60₹</code> ➛ <u>ꜱɪʟᴠᴇʀ ᴘʟᴀɴ</u> » <code>60 ᴅᴀʏꜱ</code>
-● <code>90₹</code> ➛ <u>ɢᴏʟᴅ ᴘʟᴀɴ</u> » <code>90 ᴅᴀʏꜱ</code>
-● <code>180₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
-● <code>300₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
+● <code>30₹</code> ➛ <u>Bʀᴏɴᴢᴇ Pʟᴀɴ</u> » <code>30 Dᴀʏꜱ</code>
+● <code>60₹</code> ➛ <u>Sɪʟᴠᴇʀ Pʟᴀɴ</u> » <code>60 Dᴀʏꜱ</code>
+● <code>90₹</code> ➛ <u>Gᴏʟᴅ Pʟᴀɴ</u> » <code>90 Dᴀʏꜱ</code>
+● <code>180₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>180 Dᴀʏꜱ</code>
+● <code>300₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>wishvishnu179-1@okaxis</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+💵 Uᴘɪ ID - <code>wishvishnu179-1@okaxis</code>
+📸 Qʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
-⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
+⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
-‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""    
+‼️ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ.</b>"""    
 
     DEVELOPER_TXT = """
-special Thanks To ❤️ Developer -
+Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ 💗 -
 
--Dev [Owner of this bot ]<a href='https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>
+-Dᴇᴠ [Cʀᴇᴀᴛᴏʀ Oғ Tʜɪs Bᴏᴛ]<a href='https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a>
 """
