@@ -118,8 +118,8 @@ Bʏ @TGCinemaworldbot"""
  Uꜱᴀɢᴇ: /telegraph - Sᴇɴᴅ Mᴇ Pɪᴄᴛᴜʀᴇ Oʀ Vɪᴅᴇᴏ Uɴᴅᴇʀ (5ᴍʙ) 
   
  Nᴏᴛᴇ: 
- Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Iꜱ Aᴠᴀɪʟᴀʙʟᴇ Iɴ Gʀᴏᴜᴘꜱ Aɴᴅ Pᴍꜱ 
- Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Uꜱᴇᴅ Bʏ Eᴠᴇʀʏᴏɴᴇ</b>"""
+ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Iꜱ Aᴠᴀɪʟᴀʙʟᴇ Iɴ Gʀᴏᴜᴘꜱ Aɴᴅ Pᴍꜱ.
+ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Uꜱᴇᴅ Bʏ Eᴠᴇʀʏᴏɴᴇ.</b>"""
 
     GENPASS_TXT = """<b>Pᴀꜱꜱᴡᴏʀᴅ Gᴇɴᴇʀᴀᴛᴏʀ 
   
@@ -150,7 +150,7 @@ Bʏ @TGCinemaworldbot"""
       
  <b>Sᴏɴɢ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴅᴜʟᴇ, Fᴏʀ Tʜᴏꜱᴇ Wʜᴏ Lᴏᴠᴇ Mᴜꜱɪᴄ. Yᴏᴜ Cᴀɴ Uꜱᴇ Tʜɪꜱ Fᴇᴀᴛᴜᴇ Fᴏʀ Dᴏᴡɴʟᴏᴀᴅ Aɴy Sᴏɴɢ Wɪᴛʜ Sᴜᴩᴇʀ Fᴀꜱᴛ Sᴩᴇᴇᴅ. Wᴏʀᴋꜱ Iɴ Bᴏᴛ Aɴᴅ Gʀᴏᴜᴩꜱ Oɴʟy...</b> 
   
- <b>Cᴏᴍᴍᴀɴᴅꜱ</b> :<b> 𝄟⃝.  /song Sᴏɴɢ Nᴀᴍᴇ</b></b>""" 
+ <b>Cᴏᴍᴍᴀɴᴅꜱ</b> :<b> 𝄟⃝.  /song Yᴏᴜʀ Sᴏɴɢ Nᴀᴍᴇ</b></b>""" 
   
     YTDL_TXT = """<b>ʜᴇʟᴩ yᴏᴜ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ. 
   
@@ -160,23 +160,23 @@ Bʏ @TGCinemaworldbot"""
   
  ᴇxᴀᴍᴩʟᴇ :<code>/mp4 https://youtu.be/example...</code></b>""" 
   
-    TTS_TXT = """<b>ᴛᴛꜱ 🎤 ᴍᴏᴅᴜʟᴇ : ᴛʀᴀɴꜱʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ 
+    TTS_TXT = """<b>ᴛᴛꜱ 🎤 Tʜɪs Mᴏᴅᴜʟᴇ Cᴀɴ Tʀᴀɴꜱʟᴀᴛᴇ Tᴇxᴛ Iɴᴛᴏ Sᴘᴇᴇᴄʜ Aᴜᴅɪᴏ.
   
- ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ : /tts ᴄᴏɴᴠᴇʀᴛ ᴛᴇꜱᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ</b>""" 
+ Cᴏᴍᴍᴀɴᴅꜱ Aɴᴅ Usᴀɢᴇ : /tts Cᴏɴᴠᴇʀᴛ Tᴇꜱᴛ Tᴏ Sᴘᴇᴇᴄʜ</b>""" 
+    
+    STICKER_TXT = """<b>Iɴ Tʜɪꜱ Mᴏᴅᴜʟᴇ Yᴏᴜ Cᴀɴ Fɪɴᴅ Aɴʏ Sᴛɪᴄᴋᴇʀs ID. 
+  Uꜱᴀɢᴇ: Tᴏ Gᴇᴛ Sᴛɪᴄᴋᴇʀ 
 
-    STICKER_TXT = """<b>yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜰɪɴᴅᴀɴy  ꜱᴛɪᴄᴋᴇʀꜱ ɪᴅ. 
- • ᴜꜱᴀɢᴇ :ᴛᴏ ɢᴇᴛ ꜱᴛɪᴄᴋᴇʀ 
-   
- ⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 
- ◉ Reply To Any Sticker [/stickerid]  
+ ⭕ Hᴏᴡ Tᴏ Uꜱᴇ 
+ ◉ Rᴇᴘʟʏ Tᴏ Aɴʏ Sᴛɪᴄᴋᴇʀ [/stickerid]  
  </b>"""
 
-    COUNTRY_TXT = """<b>ᴄᴏᴜɴᴛʀʏ ɪɴғᴏ
+    COUNTRY_TXT = """<b>Cᴏᴜɴᴛʀʏ Iɴғᴏ
 
-Tʜɪs ᴍᴏᴅᴜʟᴇ ɪs ᴛᴏ ғɪɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄᴏᴜɴᴛʀɪᴇs
+Tʜɪs Mᴏᴅᴜʟᴇ Is Tᴏ Fɪɴᴅ Iɴғᴏʀᴍᴀᴛɪᴏɴ Aʙᴏᴜᴛ Cᴏᴜɴᴛʀɪᴇs
 
-• /country [𝖼𝗈𝗎𝗇𝗍𝗋𝗒 𝗇𝖺𝗆𝖾] 
-𝖤𝗑𝖺𝗆𝗉𝗅𝖾 :- /country India</b>"""
+• /country [Cᴏᴜɴᴛʀʏ Nᴀᴍᴇ] 
+Exᴀᴍᴘʟᴇ :- /country India</b>"""
     
     GROUP_TXT = """👋 ʜᴇʏ {},
 
