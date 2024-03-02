@@ -1,16 +1,16 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},\n   
 Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
-Nᴏᴛᴇ: Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ. Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️</b>\n\n     <b><i>Mᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a></i></b>"""
+Nᴏᴛᴇ: Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ. Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️</b>\n\n     <b><i>Mᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/TGCinemaworld">Vɪsʜɴᴜ MB🤍</a></i></b>"""
     GSTART_TXT = """<b>Hᴇʟʟᴏ {},\n   
 Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
-Nᴏᴛᴇ: Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ. Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️</b>\n\n     <b><i>Mᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/vishnudhfm14">Vɪsʜɴᴜ MB🤍</a></i></b>"""
+Nᴏᴛᴇ: Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ. Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️</b>\n\n     <b><i>Mᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/TGCinemaworld">Vɪsʜɴᴜ MB🤍</a></i></b>"""
     
     HELP_TXT = """<b>Hᴇʟʟᴏ Dᴇᴀʀ {},
     
 Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Tʜᴇ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴs👇.</b>"""
 
-    ABOUT_TXT = """<b>‣ Mʏ Nᴀᴍᴇ : {}\n‣ Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/Vishnudhfm14'>Vishnu</a>\n‣ Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ\n‣ Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ\n‣ Dᴀᴛᴀ Bᴀsᴇ : MᴏɴɢᴏDB\n‣ Hᴏsᴛᴇᴅ Oɴ  : Hᴇʀᴏᴋᴜ\n‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.2 [Sᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """<b>‣ Mʏ Nᴀᴍᴇ : {}\n‣ Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/TGCinemaworld'>Vɪsʜɴᴜ MB🤍</a>\n‣ Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ\n‣ Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ\n‣ Dᴀᴛᴀ Bᴀsᴇ : MᴏɴɢᴏDB\n‣ Hᴏsᴛᴇᴅ Oɴ  : Hᴇʀᴏᴋᴜ\n‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.2 [Sᴛᴀʙʟᴇ]</b>"""
     
     CHANNELS = """
 <b>⚡ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ ⚡ 
