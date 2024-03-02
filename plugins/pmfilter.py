@@ -1567,7 +1567,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('► Dɪᴀᴍᴏɴᴅ⋆', callback_data='diamond'),
             InlineKeyboardButton('► Oᴛʜᴇʀ⋆ ', callback_data='other')
         ],[            
-            InlineKeyboardButton('⌂─ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ≽ܫ≼', callback_data='start')
+            InlineKeyboardButton('⌂─ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ─⌂', callback_data='start')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2427,14 +2427,14 @@ async def auto_filter(client, msg, spoll=False):
         )
         temp.IMDB_CAP[message.from_user.id] = cap
         if not settings["button"]:
-            cap+="\n\n<b>📚 <u>Your Requested Files</u> 👇\n\n</b>"
+            cap+="\n\n<b>📚 <u>Yᴏᴜʀ Rᴇǫᴜᴇsᴛᴇᴅ Fɪʟᴇs</u> 👇\n\n</b>"
             for file in files:
                 cap += f"<b>\n<a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📌 {get_size(file.file_size)} ➢ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b><i> 🎯 Tɪᴛʟᴇ : {search}\n 😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</i></b>"
+            cap = f"<b> 🔖 Tɪᴛʟᴇ : {search}\n😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</b>"
         else:
-            cap = f"<b><i> 🎯 Tɪᴛʟᴇ : {search}\n 😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</i></b>"
+            cap = f"<b> 🔖 Tɪᴛʟᴇ : {search}\n😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</b>"
             # cap+="<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             for file in files:
                 cap += f"<b><a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📌 {get_size(file.file_size)} ➢ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
