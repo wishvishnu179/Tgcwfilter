@@ -84,7 +84,7 @@ async def vsong(client, message: Message):
     urlissed = get_text(message)
     pablo = await client.send_message(message.chat.id, f"**finding your video** `{urlissed}`")
     if not urlissed:
-        return await pablo.edit("Example: /video your video link ")     
+        return await pablo.edit("**Example : /video your video link**")     
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
     mi = search.result()
     mio = mi["search_result"]
