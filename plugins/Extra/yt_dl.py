@@ -18,7 +18,7 @@ async def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = await message.reply(f"**𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐒𝐨𝐧𝐠...!\n {query}**")
+    m = await message.reply(f"**Searching Your Song...!\n {query}**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -34,9 +34,9 @@ async def song(client, message):
         views = results[0]["views"]
     except Exception as e:
         print(str(e))
-        return await m.edit("**Fᴏᴜɴᴅ Nᴏᴛʜɪɴɢ Pʟᴇᴀsᴇ Cᴏʀʀᴇᴄᴛ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oʀ Cʜᴇᴄᴋ Tʜᴇ Lɪɴᴋ**")
+        return await m.edit("**Example : /song Your Song Name**")
                 
-    await m.edit("**dσwnlσαdíng чσur ѕσng...!**")
+    await m.edit("**downloading your ѕong...!**")
     try:
         with YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -82,9 +82,9 @@ def get_text(message: Message) -> [None,str]:
 @Client.on_message(filters.command(["video", "mp4"]))
 async def vsong(client, message: Message):
     urlissed = get_text(message)
-    pablo = await client.send_message(message.chat.id, f"**𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐕𝐢𝐝𝐞𝐨** `{urlissed}`")
+    pablo = await client.send_message(message.chat.id, f"**finding your video** `{urlissed}`")
     if not urlissed:
-        return await pablo.edit("Invalid Command Syntax Please Check help Menu To Know More!")     
+        return await pablo.edit("Example: /video your video link ")     
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
     mi = search.result()
     mio = mi["search_result"]
