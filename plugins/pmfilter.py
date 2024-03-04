@@ -970,7 +970,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     await query.answer(f"Hᴇʏ {query.from_user.first_name},\nTʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ.\nRᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
         except UserIsBlocked:
             await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
-        except PeerIdInvalid:
+        except PeerIdInvalid: 
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
@@ -1868,7 +1868,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
 
     elif query.data == "ytdl":
-        await query.answer("Cᴜʀʀᴇɴᴛʟʏ Tʜɪs Fᴇᴀᴛᴜʀᴇ Is Dɪsᴀʙʟᴇᴅ!", show_alert=True)
+            buttons = [[
+                    InlineKeyboardButton("⇜ Bᴀᴄᴋ", callback_data="help")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+            text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+            text="● ● ◌"
+            )
+            await query.message.edit_text(
+            text="● ● ●"
+            )
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=script.YTDL_TXT.format(query.from_user.mention),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
            
     elif query.data == "song":
             buttons = [[
