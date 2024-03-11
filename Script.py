@@ -366,7 +366,7 @@ BOT WORKING PROPERLY"""
 ● <code>300₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
 💵 Uᴘɪ ID - <code>wishvishnu179-1@okaxis</code>
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://graph.org/file/9325fbcf013e395e7249a.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
@@ -383,7 +383,7 @@ BOT WORKING PROPERLY"""
 ● <code>300₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
 💵 Uᴘɪ ID - <code>wishvishnu179-1@okaxis</code>
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://graph.org/file/9325fbcf013e395e7249a.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
@@ -489,7 +489,7 @@ BOT WORKING PROPERLY"""
     
 ⚜️ Pᴀʏ Aᴍᴏᴜɴᴛ Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Yᴏᴜʀ Pʟᴀɴ Aɴᴅ Eɴᴊᴏʏ Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href='https://graph.org/file/9325fbcf013e395e7249a.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ‼️ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ.</b>"""
 
@@ -504,7 +504,7 @@ BOT WORKING PROPERLY"""
 ● <code>300₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>365 Dᴀʏꜱ</code>
 
 💵 Uᴘɪ ID - <code>wishvishnu179-1@okaxis</code>
-📸 Qʀ ᴄᴏᴅᴇ - <a href='https://telegra.ph/file/1ef8871644b6c24e3d219.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/9325fbcf013e395e7249a.jpg'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
