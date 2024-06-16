@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/005ec4a3d918
 CODE = (environ.get('CODE', 'https://graph.org/file/9325fbcf013e395e7249a.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_SITE = (environ.get('STREAM_SITE', 'gyanilinks.com'))
+STREAM_API = (environ.get('STREAM_API', '4ace664b1ece84ee5ef01e4f55a6dcce9f007eb5'))
 STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
