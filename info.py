@@ -30,7 +30,7 @@ CODE = (environ.get('CODE', 'https://graph.org/file/9325fbcf013e395e7249a.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_API = (environ.get('STREAM_API', 'sadiesinktgcw-922cc10cfab8.herokuapp.com'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Shortnerlinksopen/7'))
 
 # Admins, Channels & Users
