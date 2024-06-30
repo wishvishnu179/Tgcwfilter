@@ -1400,19 +1400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url='https://t.me/Tgcinemaworld')
                 ]]
             else:
-                await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
-                await query.message.reply_text(
-                text="<b>‼️ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ?\n\n✅ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ᴇɴᴊᴏʏ ᴀᴅ-ꜰʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ.</b>",
-                quote=True,
-                disable_web_page_preview=True,                  
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ 💸", callback_data='seeplans')]]))
-                buttons = [[
-                    InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=hp_link),
-                    InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿", url=ph_link)
-                ],[
-                    InlineKeyboardButton('❗Hᴏᴡ Tᴏ Oᴘᴇɴ Lɪɴᴋ❗', url=STREAMHTO)
-                ]]
-    
+                
             query.message.reply_markup = query.message.reply_markup or []
             query.message.reply_markup.inline_keyboard.pop(0)
             query.message.reply_markup.inline_keyboard.insert(0, buttons)
