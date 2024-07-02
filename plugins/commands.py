@@ -48,10 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
                 ],[
-                    InlineKeyboardButton('❤️‍🔥Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
-                    InlineKeyboardButton(' Aʙᴏᴜᴛ 🔰', callback_data='about')
-                ],[
-                    InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
+                    InlineKeyboardButton('😈𓆩ꨄ︎𓆪 Mʏ Oᴡɴᴇʀ 😈𓆩ꨄ︎𓆪', url='https://t.me/vishnudhfm14')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -84,7 +81,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
+                    "📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
                 )
             ]
         ]
@@ -109,10 +106,7 @@ async def start(client, message):
                     InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
                     InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
                 ],[
-                    InlineKeyboardButton('❤️‍🔥Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
-                    InlineKeyboardButton(' Aʙᴏᴜᴛ 🔰', callback_data='about')
-                ],[
-                    InlineKeyboardButton('⚡ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Tᴏ Rᴇᴍᴏᴠᴇ Aᴅs ⚡', callback_data="premium_info")
+                    InlineKeyboardButton('😈𓆩ꨄ︎𓆪 Mʏ Oᴡɴᴇʀ 😈𓆩ꨄ︎𓆪', url='https://t.me/vishnudhfm14')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
