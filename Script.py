@@ -1,9 +1,9 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},\n   
-Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
+Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCWFilterbot>𝗙𝗶𝗹𝗲𝘀 𝗕𝗼𝘁 𝗧𝗚𝗖𝗪 ⚡</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
 Nᴏᴛᴇ: Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ. Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️</b>\n\n     <b><i>Mᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/TGCinemaworld">Vɪsʜɴᴜ MB🤍</a></i></b>"""
     GSTART_TXT = """<b>Hᴇʟʟᴏ {},\n   
-Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCinemaworldbot>𝗦𝗮𝗱𝗶𝗲 𝗦𝗶𝗻𝗸 ❤️</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
+Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/TGCWFilterbot>𝗙𝗶𝗹𝗲𝘀 𝗕𝗼𝘁 𝗧𝗚𝗖𝗪 ⚡</a>, I Aᴍ Pᴏᴡᴇʀғᴜʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ. I Cᴀɴ Sʜᴀʀᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs 😁 \n
 Nᴏᴛᴇ: Nᴏ Tʜᴇᴀᴛʀᴇ Pʀɪɴᴛs ɪɴ ᴛʜɪs Bᴏᴛ. Sᴏ Dᴏɴᴛ Sᴇᴀʀᴄʜ ☠️</b>\n\n     <b><i>Mᴀɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/TGCinemaworld">Vɪsʜɴᴜ MB🤍</a></i></b>"""
     
     HELP_TXT = """<b>Hᴇʟʟᴏ Dᴇᴀʀ {},
@@ -35,14 +35,14 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @TGCinemaworldbot"""
+Bʏ @TGCWfilterbot"""
 
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @TGCinemaworldbot"""
+Bʏ @TGCWfilterbot"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -343,7 +343,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @TGCinemaworldbot</b>"""
+Bʏ @TGCWfilterbot</b>"""
 
     LOGO = """
 
