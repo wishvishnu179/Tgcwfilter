@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/005ec4a3d918
 CODE = (environ.get('CODE', 'https://graph.org/file/9325fbcf013e395e7249a.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'adrinolinks.in'))
-STREAM_API = (environ.get('STREAM_API', '03deca1ed6ba5b82704afd62a669699427b88214'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
+STREAM_API = (environ.get('STREAM_API', '25ffee77e9e9bbd59d7a4b3e60d75d118d561b65'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Shortnerlinksopen/7'))
 
 # Admins, Channels & Users
