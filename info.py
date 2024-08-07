@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/005ec4a3d918
 CODE = (environ.get('CODE', 'https://graph.org/file/9325fbcf013e395e7249a.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', '25ffee77e9e9bbd59d7a4b3e60d75d118d561b65'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'instantearn.in'))
+STREAM_API = (environ.get('STREAM_API', '1ac34af86a8fcd51f0d1592a70001877166ca89e'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Shortnerlinksopen/7'))
 
 # Admins, Channels & Users
