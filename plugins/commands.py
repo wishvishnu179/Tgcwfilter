@@ -83,11 +83,11 @@ async def start(client, message):
             return
         btn = [
             [
-                InlineKeyboardButton( "💗 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ❤️", url=invite_link.invite_link),
-                InlineKeyboardButton(" Tɢᴄᴡ Fɪʟᴇs ᴀɴᴅ Lɪɴᴋs",  url=invite_link.invite_link')
+                InlineKeyboardButton(
+                    "📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
+                )
             ]
         ]
-
         if message.command[1] != "subscribe":
             try:
                 kk, file_id = message.command[1].split("_", 1)
