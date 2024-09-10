@@ -41,7 +41,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍁 Hᴏᴡ Tᴏ Uꜱᴇ 🍁', url="https://t.me/{temp.U_NAME}?start=help")
+                    InlineKeyboardButton('🍁 Search Group 🍁', url="https://t.me/+k6bk75OvRHUwODVl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -177,10 +177,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
+                                InlineKeyboardButton('🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Tgcinemaworld') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk") #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -199,7 +199,7 @@ async def start(client, message):
                                 InlineKeyboardButton('🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Tgcinemaworld') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk") #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -383,7 +383,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Tgcinemaworld') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk") #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
@@ -460,7 +460,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Tgcinemaworld') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk") #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
@@ -520,7 +520,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ / Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Tgcinemaworld') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk") #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
