@@ -1397,7 +1397,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
                     InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿", url=lazy_stream)
                 ],[
-                    InlineKeyboardButton('📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌', url='https://t.me/Tgcinemaworld')
+                    InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
                 ]]
             else:
                 await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
@@ -1567,7 +1567,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('► Dɪᴀᴍᴏɴᴅ⋆', callback_data='diamond'),
             InlineKeyboardButton('► Oᴛʜᴇʀ⋆ ', callback_data='other')
         ],[            
-            InlineKeyboardButton('⌂─ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ─⌂', callback_data='start')
+            InlineKeyboardButton('🏡 Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ 🏡', callback_data='start')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1781,11 +1781,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⚜️', url='https://t.me/tgcinemaworld')
         ],[
-            InlineKeyboardButton('🔍 Gʀᴏᴜᴘ¹', url='https://t.me/Requestmoviestgcw'),
-            InlineKeyboardButton('Gʀᴏᴜᴘ² 🔎', url='https://t.me/Moviesrequestfiles')
+            InlineKeyboardButton('🔍 Gʀᴏᴜᴘ¹', url='https://t.me/+k6bk75OvRHUwODVl'),
+            InlineKeyboardButton('Gʀᴏᴜᴘ² 🔎', url='https://t.me/+QJtwjsk5PMI4NjJl')
         ],[
             InlineKeyboardButton('⇇ Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/TGCWadminbot')
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/vishnumbbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
