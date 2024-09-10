@@ -58,8 +58,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
+                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+k6bk75OvRHUwODVl'),
+                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+QJtwjsk5PMI4NjJl')
                 ],[
                     InlineKeyboardButton('❤️‍🔥Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ 🔰', callback_data='about')
@@ -92,8 +92,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
+                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+k6bk75OvRHUwODVl'),
+                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+QJtwjsk5PMI4NjJl')
                 ],[
                     InlineKeyboardButton('❤️‍🔥Fᴇᴀᴛᴜʀᴇs ', callback_data='help'),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ 🔰', callback_data='about')
