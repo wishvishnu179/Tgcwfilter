@@ -2450,9 +2450,9 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n<a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📌 {get_size(file.file_size)} ➢ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b> 🔖 Tɪᴛʟᴇ : {search}\n😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</b>"
+            cap = f"<b> 🔖 𝐻𝑒𝑟𝑒 𝐼𝑠 𝑊ℎ𝑎𝑡 𝐼 𝐹𝑜𝑢𝑛𝑑 𝐼𝑛 𝑀𝑦 𝐷𝑎𝑡𝑎𝑏𝑎𝑠𝑒 𝐹𝑜𝑟 𝑌𝑜𝑢𝑟 𝑄𝑢𝑒𝑟𝑦 : {search}\n\n ❤️‍🔥 𝐻𝑒𝑟𝑒 𝑌𝑜𝑢𝑟 𝐹𝑖𝑙𝑒𝑠 𝐼𝑠 𝑅𝑒𝑎𝑑𝑦 𝑁𝑜𝑤 \n\n</b>"
         else:
-            cap = f"<b> 🔖 Tɪᴛʟᴇ : {search}\n😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</b>"
+            cap = f"<b> 🔖 𝐻𝑒𝑟𝑒 𝐼𝑠 𝑊ℎ𝑎𝑡 𝐼 𝐹𝑜𝑢𝑛𝑑 𝐼𝑛 𝑀𝑦 𝐷𝑎𝑡𝑎𝑏𝑎𝑠𝑒 𝐹𝑜𝑟 𝑌𝑜𝑢𝑟 𝑄𝑢𝑒𝑟𝑦 : {search}\n\n ❤️‍🔥 𝐻𝑒𝑟𝑒 𝑌𝑜𝑢𝑟 𝐹𝑖𝑙𝑒𝑠 𝐼𝑠 𝑅𝑒𝑎𝑑𝑦 𝑁𝑜𝑤 \n\n</b>"
             # cap+="<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             for file in files:
                 cap += f"<b><a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📌 {get_size(file.file_size)} ➢ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
