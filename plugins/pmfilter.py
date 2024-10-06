@@ -150,7 +150,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🐦‍🔥 {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"❃ {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -364,7 +364,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🐦‍🔥 {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"❃ {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -503,7 +503,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🐦‍🔥 {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"❃ {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -672,7 +672,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🐦‍🔥 {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"❃ {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1397,7 +1397,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("🚀 Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
                     InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ 🧿", url=lazy_stream)
                 ],[
-                    InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+                    InlineKeyboardButton('💥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 💥', url="https://t.me/+Q6HJvzyonYwwMTk1")
                 ]]
             else:
                 await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
@@ -2371,7 +2371,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🐦‍🔥 {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"❃ {get_size(file.file_size)} ⪼ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
