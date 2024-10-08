@@ -177,7 +177,7 @@ async def start(client, message):
                      [
                        InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
                     ],[
-                       InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+                       InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+Q6HJvzyonYwwMTk1")
                      ]
                         ]
                     )
@@ -195,7 +195,7 @@ async def start(client, message):
                      [
                        InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
                     ],[
-                       InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+                       InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+Q6HJvzyonYwwMTk1")
                      ]
                         ]
                     )
@@ -513,7 +513,7 @@ async def start(client, message):
              [
               InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
             ],[
-              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+Q6HJvzyonYwwMTk1")
              ]
             ]
         )
