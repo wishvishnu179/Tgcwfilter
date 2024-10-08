@@ -10,7 +10,7 @@ from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import *
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id, get_bad_files
 from database.users_chats_db import db
-from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, SUPPORT_CHAT, MAX_B_TN, VERIFY, SHORTLINK_API, SHORTLINK_URL, TUTORIAL, IS_TUTORIAL, PREMIUM_USER, PICS, SUBSCRIPTION
+from info import CHANNELS, ADMINS, AUTH_CHANNELS, LOG_CHANNEL, PICS, BATCH_FILE_CAPTION, CUSTOM_FILE_CAPTION, PROTECT_CONTENT, CHNL_LNK, GRP_LNK, REQST_CHANNEL, SUPPORT_CHAT_ID, SUPPORT_CHAT, MAX_B_TN, VERIFY, SHORTLINK_API, SHORTLINK_URL, TUTORIAL, IS_TUTORIAL, PREMIUM_USER, PICS, SUBSCRIPTION
 from utils import get_settings, get_size, is_req_subscribed, save_group_settings, temp, verify_user, check_token, check_verification, get_token, get_shortlink, get_tutorial
 from database.connections_mdb import active_connection
 # from plugins.pm_filter import ENABLE_SHORTLINK
@@ -24,11 +24,25 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
+    if AUTH_CHANNELS:
+        try:
+            btn = await is_subscribed(client, message, AUTH_CHANNELS)
+            if btn:
+                username = (await client.get_me()).username
+                if message.command[1]:
+                    btn.append([InlineKeyboardButton("↻Tʀʏ Aɢᴀɪɴ↺", url=f"https://t.me/{username}?start={message.command[1]}")])
+                else:
+                    btn.append([InlineKeyboardButton("↻Tʀʏ Aɢᴀɪɴ↺", url=f"https://t.me/{username}?start=true")])
+                await message.reply_text(text=f"<b>👋 𝑯𝒆𝒍𝒍𝒐 {message.from_user.mention},\n\nSᴏʀʀʏ Yᴏᴜʀ Nᴏᴛ Jᴏɪɴᴇᴅ Mʏ Cʜᴀɴɴᴇʟ Sᴏ Pʟᴇᴀsᴇ Cʟɪᴄᴋ 𝗝𝗼𝗶𝗻 Bᴜᴛᴛᴏɴ Tᴏ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Aɴᴅ 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻. 😇</b>", reply_markup=InlineKeyboardMarkup(btn))
+                return
+        except Exception as e:
+            print(e)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [[
-                    InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🍁 Hᴏᴡ Tᴏ Uꜱᴇ 🍁', url="https://t.me/{temp.U_NAME}?start=help")
+        buttons = [[                   
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ 𝟷 •", url="https://t.me/+k6bk75OvRHUwODVl"),
+                    InlineKeyboardButton("• ​Gʀᴏᴜᴘ 𝟸 •", url="https://t.me/+QJtwjsk5PMI4NjJl")
+                  ],[
+                    InlineKeyboardButton('• Mʏ Cʀᴇᴀᴛoʀ 🙈 •', url='https://t.me/vishnumbbot')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -42,14 +56,15 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
-                    InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
-                ],[
-                    InlineKeyboardButton('😈𓆩ꨄ︎𓆪 𝗠𝘆 𝗢𝘄𝗻𝗲𝗿 😈𓆩ꨄ︎𓆪', url='https://t.me/vishnudhfm14')
-                  ]]
+        buttons = [[      
+            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')    
+            ],[
+            InlineKeyboardButton('• Gʀᴏᴜᴘ 𝟷 •', url="https://t.me/+k6bk75OvRHUwODVl"),
+            InlineKeyboardButton('• Gʀᴏᴜᴘ 2 •', url="https://t.me/+QJtwjsk5PMI4NjJl")            
+            ],[      
+            InlineKeyboardButton('📢Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ🔰', callback_data='about')                    
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
@@ -70,44 +85,18 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        return
-        
-    if AUTH_CHANNEL and not await is_req_subscribed(client, message):
-        try:
-            invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL), creates_join_request=True)
-        except ChatAdminRequired:
-            logger.error("Make sure Bot is admin in Forcesub channel")
-            return
-        btn = [
-            [
-                InlineKeyboardButton(
-                    "📌 Jᴏɪɴ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
-                )
-            ]
-        ]
-
-        if message.command[1] != "subscribe":
-            try:
-                kk, file_id = message.command[1].split("_", 1)
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"checksub#{kk}#{file_id}")])
-            except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
-        await client.send_message(
-            chat_id=message.from_user.id,
-            text="ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.",
-            reply_markup=InlineKeyboardMarkup(btn),
-            parse_mode=enums.ParseMode.MARKDOWN
-            )
-        return
+        return      
+    
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-                    InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
-                ],[
-                    InlineKeyboardButton('😈𓆩ꨄ︎𓆪 𝗠𝘆 𝗢𝘄𝗻𝗲𝗿 😈𓆩ꨄ︎𓆪', url='https://t.me/vishnudhfm14')
-                  ]]
+        buttons = [[      
+            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')    
+            ],[
+            InlineKeyboardButton('• Gʀᴏᴜᴘ 𝟷 •', url="https://t.me/+k6bk75OvRHUwODVl"),
+            InlineKeyboardButton('• Gʀᴏᴜᴘ 2 •', url="https://t.me/+QJtwjsk5PMI4NjJl")            
+            ],[      
+            InlineKeyboardButton('📢Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ🔰', callback_data='about')                    
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
@@ -185,9 +174,11 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [
-                                InlineKeyboardButton(' ☀️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ', url=f'https://t.me/Tgcinemaworld')
-                            ]
+                     [
+                       InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
+                    ],[
+                       InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+                     ]
                         ]
                     )
                 )
@@ -201,9 +192,11 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [
-                                InlineKeyboardButton(' ☀️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ', url=f'https://t.me/Tgcinemaworld')
-                            ]
+                     [
+                       InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
+                    ],[
+                       InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+                     ]
                         ]
                     )
                 )
@@ -381,9 +374,11 @@ async def start(client, message):
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-            [
+                [
              [
-              InlineKeyboardButton(' ☀️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ', url=f'https://t.me/Tgcinemaworld')
+              InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
+            ],[
+              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
              ]
             ]
         )
@@ -457,11 +452,13 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton(' ☀️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ', url=f'https://t.me/Tgcinemaworld')
+              InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
+            ],[
+              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
              ]
             ]
         )
-    )
+            )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = '' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
@@ -514,7 +511,9 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton(' ☀️ Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ', url=f'https://t.me/Tgcinemaworld')
+              InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
+            ],[
+              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
              ]
             ]
         )
