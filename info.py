@@ -27,8 +27,8 @@ AUTH_CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get(
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
-PICS = (environ.get('PICS', 'https://graph.org/file/b7c91b3706041a0f4bef7.jpg https://graph.org/file/3d6c28e3c3ad1454d9737.jpg https://graph.org/file/bda30787fd99f544b7c68.jpg https://graph.org/file/d92ed648ba5e36eefe847.png https://graph.org/file/685b61f0960d899e70f84.png https://graph.org/file/c950d4077fa3727124337.jpg https://graph.org/file/84538d10b4d30fe9fe975.png https://graph.org/file/7fb2026cdb53f47c45135.png https://graph.org/file/09a88e615f0fa3ce59847.jpg https://graph.org/file/c7967062a04288967e277.png https://graph.org/file/67117050f104d37428ea7.png https://graph.org/file/dede0424b06d2e10bedca.png https://graph.org/file/615a79db897d3c6460446.png https://graph.org/file/61e7a2f8b2989c0154556.png https://graph.org/file/f6105f3dd279b7472f36c.jpg https://graph.org/file/6e0083865533e3410c657.png')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
+PICS  = (environ.get('PICS', 'https://envs.sh/bJ_.jpg https://envs.sh/bJj.jpg https://envs.sh/bJc.jpg https://envs.sh/bJZ.jpg https://envs.sh/bJL.jpg https://envs.sh/bJ5.jpg https://envs.sh/bJG.jpg https://envs.sh/bJK.jpg https://envs.sh/bJz.jpg https://envs.sh/bJY.jpg https://envs.sh/bJR.jpg https://envs.sh/bJ1.jpg https://envs.sh/bJ4.jpg https://envs.sh/bJU.jpg https://envs.sh/bJJ.jpg https://envs.sh/bJo.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/IRp.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/4f768f1051dc78bdb54e5.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/9e3a5d8d0b0d84b44c185.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/005ec4a3d918ec83fa63d.jpg'))
