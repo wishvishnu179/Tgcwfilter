@@ -21,6 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
+#FSub
+
+AUTH_CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNELS', '-1001996186113 -1002273454139 -1002102444314').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
+auth_channel = environ.get('AUTH_CHANNEL')
+AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
+
 PICS = (environ.get('PICS', 'https://graph.org/file/b7c91b3706041a0f4bef7.jpg https://graph.org/file/3d6c28e3c3ad1454d9737.jpg https://graph.org/file/bda30787fd99f544b7c68.jpg https://graph.org/file/d92ed648ba5e36eefe847.png https://graph.org/file/685b61f0960d899e70f84.png https://graph.org/file/c950d4077fa3727124337.jpg https://graph.org/file/84538d10b4d30fe9fe975.png https://graph.org/file/7fb2026cdb53f47c45135.png https://graph.org/file/09a88e615f0fa3ce59847.jpg https://graph.org/file/c7967062a04288967e277.png https://graph.org/file/67117050f104d37428ea7.png https://graph.org/file/dede0424b06d2e10bedca.png https://graph.org/file/615a79db897d3c6460446.png https://graph.org/file/61e7a2f8b2989c0154556.png https://graph.org/file/f6105f3dd279b7472f36c.jpg https://graph.org/file/6e0083865533e3410c657.png')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/4f768f1051dc78bdb54e5.jpg")
@@ -34,17 +40,16 @@ STREAM_API = (environ.get('STREAM_API', ''))
 STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5807740619').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002113123762 -1002026630377 -1001900525156 -1002082439736').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5807740619 6769956957').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002145868115 -1002132474788').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002488295693') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channels = environ.get('AUTH_CHANNELS') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
-AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002075354424') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001883361626') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
