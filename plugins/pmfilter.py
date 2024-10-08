@@ -150,7 +150,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🪄 {get_size(file.file_size)} 🔹 {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -364,7 +364,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🪄 {get_size(file.file_size)} 🔹 {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -503,7 +503,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🪄 {get_size(file.file_size)} 🔹 {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -672,7 +672,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🪄 {get_size(file.file_size)} 🔹 {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1431,14 +1431,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(text=script.SINFO, show_alert=True)
 
     elif query.data == "start":
-        buttons = [[
-                    InlineKeyboardButton('★Aᴅᴅ 𝖬ᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🥂 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 1', url='https://t.me/+5dsnorFdKrBlZWE1'),
-                    InlineKeyboardButton('Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 2 🥂', url='https://t.me/+Mz5o_wvRxho3NTVl')
-                ],[
-                    InlineKeyboardButton('😈𓆩ꨄ︎𓆪 𝗠𝘆 𝗢𝘄𝗻𝗲𝗿 😈𓆩ꨄ︎𓆪', url='https://t.me/vishnudhfm14')
-                  ]]
+        buttons = [[      
+            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')    
+            ],[
+            InlineKeyboardButton('• Gʀᴏᴜᴘ 𝟷 •', url="https://t.me/+k6bk75OvRHUwODVl"),
+            InlineKeyboardButton('• Gʀᴏᴜᴘ 2 •', url="https://t.me/+QJtwjsk5PMI4NjJl")            
+            ],[      
+            InlineKeyboardButton('📢Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ🔰', callback_data='about')                    
+        ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -2356,7 +2357,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🪄 {get_size(file.file_size)} 🔹 {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -2430,77 +2431,43 @@ async def auto_filter(client, msg, spoll=False):
         )
         temp.IMDB_CAP[message.from_user.id] = cap
         if not settings["button"]:
-            cap+="\n\n<b>📚 <u>Yᴏᴜʀ Rᴇǫᴜᴇsᴛᴇᴅ Fɪʟᴇs</u> 👇\n\n</b>"
+            cap+="\n\n"<b><i>❐ Here is What I Found In My Database For Your Query : <u>{search}</u> \n\n\nPᴏᴡᴇʀᴇᴅ Bʏ 🫶🏻: @TGCinemaworld </i></b>"
             for file in files:
-                cap += f"<b>\n<a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📌 {get_size(file.file_size)} ➢ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
+                cap += f"<b>\n<a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> ➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b> 🔖 Tɪᴛʟᴇ : {search}\n😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</b>"
+            cap = f"<b><i>❐ Here is What I Found In My Database For Your Query : <u>{search}</u> \n\n\nPᴏᴡᴇʀᴇᴅ Bʏ 🫶🏻: @TGCinemaworld </i></b>"
         else:
-            cap = f"<b> 🔖 Tɪᴛʟᴇ : {search}\n😻 Yᴏᴜʀ Fɪʟᴇs Is Rᴇᴀᴅʏ Nᴏᴡ \n\n</b>"
+            cap = f"<b><i>❐ Here is What I Found In My Database For Your Query : <u>{search}</u> \n\n\nPᴏᴡᴇʀᴇᴅ Bʏ 🫶🏻: @TGCinemaworld </i></b>"
             # cap+="<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             for file in files:
-                cap += f"<b><a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📌 {get_size(file.file_size)} ➢ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
+                cap += f"<b><a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> ➲ {get_size(file.file_size)} ⊳ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
 
     if imdb and imdb.get('poster'):
         try:
-            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await m.delete()
-            try:
-                if settings['auto_delete']:
-                    await asyncio.sleep(300)
-                    await hehe.delete()
-                    await message.delete()
-            except KeyError:
-                await save_group_settings(message.chat.id, 'auto_delete', True)
-                await asyncio.sleep(300)
-                await hehe.delete()
-                await message.delete()
+            send=await message.reply_photo(photo="https://envs.sh/b39.jpg", caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg") 
-            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await m.delete()
-            try:
-               if settings['auto_delete']:
-                    await asyncio.sleep(300)
-                    m=await message.reply_text("🔎")
-                    await hmm.delete()
-                    await message.delete()
-            except KeyError:
-                await save_group_settings(message.chat.id, 'auto_delete', True)
-                await asyncio.sleep(300)
-                await hmm.delete()
-                await message.delete()
+            poster = pic.replace('.jpg', "._V1_UX360.jpg")
+            send=await message.reply_photo(photo="https://envs.sh/b39.jpg", caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             logger.exception(e)
-            m=await message.reply_text("🔎") 
-            fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await m.delete()
-            try:
-                if settings['auto_delete']:
-                    await asyncio.sleep(300)
-                    await fek.delete()
-                    await message.delete()
-            except KeyError:
-                await save_group_settings(message.chat.id, 'auto_delete', True)
-                await asyncio.sleep(300)
-                await fek.delete()
-                await message.delete()
+            send=await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        fuk = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
-        await m.delete()
-        try:
-            if settings['auto_delete']:
-                await asyncio.sleep(300)
-                await fuk.delete()
-                await message.delete()
-        except KeyError:
-            await save_group_settings(message.chat.id, 'auto_delete', True)
-            await asyncio.sleep(300)
-            await fuk.delete()
-            await message.delete()
-
+        send=await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+    if spoll: await msg.message.delete()
+    mention = message.from_user.mention
+    grp_id = message.chat.id
+    try:
+        await asyncio.sleep(300)
+        await message.delete()
+        await send.delete()
+    except Exception as e:
+        logger.exception(e)
+        await asyncio.sleep(300)
+        await message.delete()
+        await send.delete()
+            
 async def advantage_spell_chok(client, msg):
     mv_id = msg.id
     mv_rqst = msg.text
