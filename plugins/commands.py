@@ -76,7 +76,7 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_sticker("CAACAgUAAxkBAAICBGXiDkf27G23M0NJ0WUzyT01QVPpAAKoAAPIlGQUlaL1UJFvTNYeBA") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAEI4ZVnBd-Ms7lmPyOUr9OICs0YK4avtwAClwIAArrAlQVWlPoy8WCF3h4E") 
         await asyncio.sleep(0.5)
         await m.delete()
         await message.reply_photo(
@@ -454,7 +454,7 @@ async def start(client, message):
              [
               InlineKeyboardButton('🎭 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🎭', url=f'https://t.me/+_lBf1JJ0kaMzZTll')
             ],[
-              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+yeBRwHsExMYyMDlk")
+              InlineKeyboardButton('💥 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 💥', url="https://t.me/+Q6HJvzyonYwwMTk1")
              ]
             ]
         )
