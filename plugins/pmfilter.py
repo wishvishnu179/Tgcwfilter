@@ -2460,12 +2460,12 @@ async def auto_filter(client, msg, spoll=False):
     mention = message.from_user.mention
     grp_id = message.chat.id
     try:
-        await asyncio.sleep(300)
+        await asyncio.sleep(43200)
         await message.delete()
         await send.delete()
     except Exception as e:
         logger.exception(e)
-        await asyncio.sleep(300)
+        await asyncio.sleep(43200)
         await message.delete()
         await send.delete()
             
