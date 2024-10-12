@@ -157,16 +157,35 @@ async def next_page(bot, query):
             for file in files
         ]
 
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
 
     else:
         btn = []
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
-
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
     try:
         if settings['max_btn']:
             if 0 < offset <= 10:
@@ -370,15 +389,34 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
             for file in files
         ]
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
-
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
     else:
         btn = []
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
 
     if offset != "":
         try:
@@ -509,15 +547,34 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
             for file in files
         ]
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
-
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
     else:
         btn = []
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
 
     if offset != "":
         try:
@@ -684,9 +741,19 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         ])
     else:
         btn = []
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
     
     offset = 0
 
@@ -2363,15 +2430,35 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
 
     else:
         btn = []
-        btn.insert(0, [
-            InlineKeyboardButton("♨ Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ ♨", callback_data=f"sendfiles#{key}")
-        ])
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ]
+    )
+    btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ]
+    )
 
     if offset != "":
         req = message.from_user.id if message.from_user else 0
