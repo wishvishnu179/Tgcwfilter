@@ -1490,13 +1490,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(text=script.PAGE_TXT, show_alert=True)
 
     elif query.data == "reqinfo":
-        await query.answer(text=script.REQINFO, show_alert=True)
+        await query.answer("⚠ 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑻𝑰𝑶𝑵 ⚠\n\nAꜰᴛᴇʀ 10 Mɪɴᴜᴛᴇꜱ Tʜɪꜱ Mᴇꜱꜱᴀɢᴇ Wɪʟʟ Bᴇ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Dᴇʟᴇᴛᴇᴅ\n\nIғ Yᴏᴜ Dᴏ Nᴏᴛ Sᴇᴇ Tʜᴇ Rᴇǫᴜᴇsᴛᴇᴅ Mᴏᴠɪᴇ / Sᴇʀɪᴇs Fɪʟᴇ, Lᴏᴏᴋ Aᴛ Tʜᴇ Nᴇxᴛ Pᴀɢᴇ\n\n©TGCWSearchgroup", show_alert=True)
 
-    elif query.data == "select":
-        await query.answer(text=script.SELECT, show_alert=True)
+    elif query.data == "minfo":
+        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n𝑴𝑶𝑽𝑰𝑬 𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑭𝑶𝑹𝑴𝑨𝑻\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nGᴏ Tᴏ Gᴏᴏɢʟᴇ ➠ Tʏᴘᴇ Mᴏᴠɪᴇ Nᴀᴍᴇ ➠ Cᴏᴘʏ Cᴏʀʀᴇᴄᴛ Nᴀᴍᴇ ➠ Pᴀꜱᴛᴇ Tʜɪꜱ Gʀᴏᴜᴘ\n\n𝙴𝚡𝚊𝚖𝚙𝚕𝚎 : 𝐴𝑣𝑒𝑛𝑔𝑒𝑟𝑠 𝐸𝑛𝑑𝑔𝑎𝑚𝑒\n\n🚯 Dᴏɴᴛ Usᴇ ➠ ':(!,./)\n\n©TGCWSearchgroup", show_alert=True)
 
     elif query.data == "sinfo":
-        await query.answer(text=script.SINFO, show_alert=True)
+        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n𝑺𝑬𝑹𝑰𝑬𝑺 𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑭𝑶𝑹𝑴𝑨𝑻\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nGᴏ Tᴏ Gᴏᴏɢʟᴇ ➠ Tʏᴘᴇ Mᴏᴠɪᴇ Nᴀᴍᴇ ➠ Cᴏᴘʏ Cᴏʀʀᴇᴄᴛ Nᴀᴍᴇ ➠ Pᴀꜱᴛᴇ Tʜɪꜱ Gʀᴏᴜᴘ\n\n𝙴𝚡𝚊𝚖𝚙𝚕𝚎 : 𝐺𝑎𝑚𝑒 𝑂𝑓 𝑇ℎ𝑟𝑜𝑛𝑒𝑠 S01\n\n🚯 Dᴏɴᴛ Usᴇ ➠ ':(!,./)\n\n©TGCWSearchgroup", show_alert=True)      
+
+    elif query.data == "tinfo":
+        await query.answer("▣ 𝐓𝐢𝐩𝐬 ▣\n\n★ Tʏᴘᴇ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ (Gᴏᴏɢʟᴇ)\n\n★ Iғ Yᴏᴜ Nᴏᴛ Gᴇᴛ Yᴏᴜʀ Fɪʟᴇ Iɴ Tʜᴇ Bᴜᴛᴛᴏɴ Tʜᴇɴ Tʜᴇ Nᴇxᴛ Sᴛᴇᴘ Is Cʟɪᴄᴋ Nᴇxᴛ Bᴜᴛᴛᴏɴ.\n\n★ Cᴏɴᴛɪɴᴜᴇ Tʜɪs Mᴇᴛʜᴏᴅ Tᴏ Gᴇᴛᴛɪɴɢ Yᴏᴜ Fɪʟᴇ\n\n\©TGCWSearchgroup", show_alert=True)
 
     elif query.data == "start":
         buttons = [[      
