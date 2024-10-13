@@ -21,12 +21,6 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-#FSub
-
-AUTH_CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNELS', '-1001996186113 -1002154589431').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
-auth_channel = environ.get('AUTH_CHANNEL')
-AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-
 PICS  = (environ.get('PICS', 'https://envs.sh/bJ_.jpg https://envs.sh/bJj.jpg https://envs.sh/bJc.jpg https://envs.sh/bJZ.jpg https://envs.sh/bJL.jpg https://envs.sh/bJ5.jpg https://envs.sh/bJG.jpg https://envs.sh/bJK.jpg https://envs.sh/bJz.jpg https://envs.sh/bJY.jpg https://envs.sh/bJR.jpg https://envs.sh/bJ1.jpg https://envs.sh/bJ4.jpg https://envs.sh/bJU.jpg https://envs.sh/bJJ.jpg https://envs.sh/bJo.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/IRp.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/4f768f1051dc78bdb54e5.jpg")
@@ -97,6 +91,20 @@ LANGUAGES = ["malayalam", "", "tamil", "", "english", "", "hindi", "", "telugu",
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10"]
 
 QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160P", ""]
+
+
+#Fsub
+auth_channel = environ.get('AUTH_CHANNEL')
+AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
+
+# Dont Change Anything Here
+REQ_CHANNEL = os.environ.get("REQ_CHANNEL", "-1002300346439,-1002361963380")
+if REQ_CHANNEL is not None:
+    REQ_CHANNEL = [int(id) for id in REQ_CHANNEL.split(',')] if REQ_CHANNEL else False
+else:
+    REQ_CHANNEL = None
+
+JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Online Stream and Download
 NO_PORT = bool(environ.get('NO_PORT', False))
