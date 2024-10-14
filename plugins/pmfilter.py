@@ -388,31 +388,27 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
     else:
         btn = []
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
 
     if offset != "":
         try:
@@ -546,31 +542,27 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
     else:
         btn = []
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
 
     if offset != "":
         try:
@@ -731,25 +723,30 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
             for file in files
         ]
-        btn.insert(0, [
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
-            InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"seasons#{key}")
-        ])
-    else:
-        btn = []
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
+    else:
+        btn = []
+        btn.insert(0, 
+        [
+            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+        ])
+        btn.insert(1, 
+         [
+             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+         ])
     
     offset = 0
 
@@ -2432,32 +2429,28 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
 
     else:
         btn = []
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
-        ]
-    )
-    btn.insert(1, 
+        ])
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
-         ]
-    )
+         ])
 
     if offset != "":
         req = message.from_user.id if message.from_user else 0
