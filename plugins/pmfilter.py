@@ -170,7 +170,6 @@ async def next_page(bot, query):
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
          ]
     )
-
     else:
         btn = []
         btn.insert(0, 
