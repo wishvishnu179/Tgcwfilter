@@ -161,30 +161,30 @@ async def next_page(bot, query):
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
         ]
-    )
-    btn.insert(1, 
+        )
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
          ]
-    )
+         )
     else:
         btn = []
         btn.insert(0, 
         [
             InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
         ]
-    )
-    btn.insert(1, 
+        )
+        btn.insert(1, 
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
              InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
              InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
          ]
-    )
+         )
     try:
         if settings['max_btn']:
             if 0 < offset <= 10:
