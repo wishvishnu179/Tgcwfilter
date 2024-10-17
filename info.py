@@ -28,7 +28,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 PICS  = (environ.get('PICS', 'https://envs.sh/bJ_.jpg https://envs.sh/bJj.jpg https://envs.sh/bJc.jpg https://envs.sh/bJZ.jpg https://envs.sh/bJL.jpg https://envs.sh/bJ5.jpg https://envs.sh/bJG.jpg https://envs.sh/bJK.jpg https://envs.sh/bJz.jpg https://envs.sh/bJY.jpg https://envs.sh/bJR.jpg https://envs.sh/bJ1.jpg https://envs.sh/bJ4.jpg https://envs.sh/bJU.jpg https://envs.sh/bJJ.jpg https://envs.sh/bJo.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/IRp.jpg https://envs.sh/bJj.jpg https://envs.sh/bJc.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/IRp.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/4f768f1051dc78bdb54e5.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/9e3a5d8d0b0d84b44c185.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/005ec4a3d918ec83fa63d.jpg'))
